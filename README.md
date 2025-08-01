@@ -23,12 +23,12 @@ Thanks for clarifying! Since **Ruby** is actually the **name of your insurance a
 
 ## **Tech Stack**
 
-- **Framework:** .NET 6 / 7 / 8 (please confirm version)
+- **Framework:** .NET 8
 - **Backend Language:** C#
-- **Database:** PostgreSQL / SQL Server (please confirm)
+- **Database:** SQL Server
 - **ORM:** Entity Framework Core
-- **Authentication:** JWT / Identity (if used)
-- **Other Tools:** Swagger for API documentation (optional)
+- **Authentication:** JWT / Identity
+- **Other Tools:** Swagger for API documentation
 
 ---
 
