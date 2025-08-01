@@ -1,0 +1,13 @@
+{
+  "Messages": {
+    "ProductCreationInitiated": "Product Setup have been initiated and pushed for approval.",
+    "ProductCloneInitiated": "Product have been successfully cloned and pushed for approval.",
+    "ProductCreationCompleted": "Product Setup have successfully been approved.",
+    "ProductSelected": "Product was successfuly selected.",
+    "ProductApprovalCompleted": "The Approval has been successfully completed.",
+    "ProductApprovalCancelled": "The Approval has been successfully cancelled and the product marked for deletion.",
+    "LifeSavingsSetupCompleted": "The Life and Savings changes to this Product Setup has been successfully updated.",
+    "FinancialControlSetupCompleted": "The Financial Control changes to this Product Setup has been successfully updated.",
+    "UnderwritersSetupCompleted": "The Underwriters changes to this Product Setup has been successfully updated."
+  }
+}

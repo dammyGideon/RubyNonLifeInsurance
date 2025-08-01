@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>RubyNonlife.Domain</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Seeder\**" />
+    <EmbeddedResource Remove="Seeder\**" />
+    <None Remove="Seeder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\Customer.cs" />
+    <Compile Remove="Models\NonLifeProductSetupStage.cs" />
+    <Compile Remove="Models\NonLifeProductSubjectTypeAttribute.cs" />
+    <Compile Remove="Models\NonLifeProductSubjectTypeCover.cs" />
+    <Compile Remove="Models\PolicyDuration.cs" />
+    <Compile Remove="Models\PolicyEntities\Policy.cs" />
+    <Compile Remove="Models\RelationshipManager.cs" />
+    <Compile Remove="Models\SubjectTypeAttribute.cs" />
+    <Compile Remove="Models\User.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>

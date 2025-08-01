@@ -1,0 +1,8 @@
+{
+  "Messages": {
+    "TreatySelected": "Treaty was successfuly selected.",
+    "TreatyCreationInitiated": "Treaty Setup have been initiated and pushed for approval.",
+    "TreatyUpdated": "Treaty Setup have been updated.",
+    "ReinsuranceInputSelected": "Reinsurance computation input fields was successfuly selected."
+  }
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "Id": 1,
+    "Name": "Text",
+    "FieldType": "string",
+    "SubFieldType": "string"
+  },
+  {
+    "Id": 2,
+    "Name": "Whole Number",
+    "FieldType": "long",
+    "SubFieldType": "long"
+  },
+  {
+    "Id": 3,
+    "Name": "Floating Number",
+    "FieldType": "double",
+    "SubFieldType": "double"
+  },
+  {
+    "Id": 4,
+    "Name": "Text-Email",
+    "FieldType": "string",
+    "SubFieldType": "email"
+  },
+  {
+    "Id": 5,
+    "Name": "Text-Phone Number",
+    "FieldType": "string",
+    "SubFieldType": "phoneNumber"
+  },
+  {
+    "Id": 6,
+    "Name": "True-False",
+    "FieldType": "boolean",
+    "SubFieldType": "boolean"
+  },
+  {
+    "Id": 7,
+    "Name": "Yes-No",
+    "FieldType": "boolean",
+    "SubFieldType": "boolean"
+  },
+  {
+    "Id": 8,
+    "Name": "Date Only",
+    "FieldType": "datetime",
+    "SubFieldType": "date"
+  },
+  {
+    "Id": 9,
+    "Name": "Date With Time",
+    "FieldType": "datetime",
+    "SubFieldType": "datetime"
+  },
+  {
+    "Id": 10,
+    "Name": "Time Only",
+    "FieldType": "datetime",
+    "SubFieldType": "time"
+  },
+  {
+    "Id": 11,
+    "Name": "Long Only",
+    "FieldType": "long",
+    "SubFieldType": "decimal"
+  },
+  {
+    "Id": 12,
+    "Name": "Image Only",
+    "FieldType": "file",
+    "SubFieldType": "file"
+  },
+  {
+    "Id": 13,
+    "Name": "Document",
+    "FieldType": "file",
+    "SubFieldType": "file"
+  }
+]

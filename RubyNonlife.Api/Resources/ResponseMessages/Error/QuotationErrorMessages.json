@@ -1,0 +1,19 @@
+{
+  "Messages": {
+    "QuotationNullPolicyTenor": " Policy Tenor is null",
+    "QuotationMultiplePolicyTenor": "Multiple policy tenures dictated",
+    "QuotationNotFound": " Quotation is null",
+    "QuotationValueMismatch": "The calculated value does not match the value inserted by user",
+    "QuotationPaymentFailed": "Quote payment failed",
+    "QuotationFormulaNotFound": "There was no product formular inserted for product",
+    "CompulsoryRiderOmitted": "Compulsory rider omitted",
+    "RiderMismatch": "Selected rider does not exist or is not allowd for this product",
+    "SumAssuredGreaterThanMaxSumAssured": "The Specified sum assured is more than the maximum sum assured for this product",
+    "SumAssuredValueNull": "The sum assured value is null",
+    "ContributionValueNull": "The contribution value is null",
+    "PaymentFrequencyValueNull": "The payment frequency value is null",
+    "PremiumPaymentTermValueNull": "The premium payment term value is null",
+    "AnnualPremiumValueNull": "The premium payment term value is null",
+    "AgeValueNull": "The age value is null"
+  }
+}

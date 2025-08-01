@@ -1,0 +1,7 @@
+{
+	"Subjects":{
+	"NonLifeUnderwriterNotification":"Rate Assignment Request",
+	"SendQuotation" :"Quotation Request",
+	"PolicyDecline" :"Policy Decline"
+}
+}

@@ -1,0 +1,8 @@
+{
+  "Messages": {
+    "CustomerNewlyCreated": "Customer have successfully been profiled and pushed for approval, kindly await your Customer Number.",
+    "CustomerModificationRequestInitiated": "Customer Modification have successfully been profiled and pushed for approval.",
+    "CustomerSearch": "Customer Search Successful",
+    "CustomerApprovalCompleted": "The Approval has been successfully completed."
+  }
+}

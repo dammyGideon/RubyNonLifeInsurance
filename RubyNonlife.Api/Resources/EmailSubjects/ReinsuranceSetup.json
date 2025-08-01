@@ -1,0 +1,9 @@
+{
+    "Subjects": {
+        "TreatySetupCompletion": "Treaty Setup Completion",
+        "LifeSavingsSetupCompletion": "Life and Savings Completed Setup",
+        "FinancialControlSetupCompletion": "Financial Control Setup Completed",
+        "ProductApprovalInitiation": "Product Successfully pushed for approval.",
+        "ProductApprovalCompletion": "Product Successfully Completed Approval Request"
+    }
+}

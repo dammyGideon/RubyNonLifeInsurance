@@ -1,0 +1,10 @@
+{
+  "Subjects": {
+    "ProductTeamSetupCompletion": "Product Team Setup Completed",
+    "P&CSetupCompletion": "Nonlife Completed Setup",
+    "ReinsuranceSetupCompletion": "Product Reinsurance Completed Setup",
+    "ProductApprovalInitiation": "Product Successfully pushed for approval.",
+    "ProductApprovalCompletion": "Product Successfully Completed Approval Request",
+    "ProductDisapproval": "This product setup has just been rejected!"
+  }
+}

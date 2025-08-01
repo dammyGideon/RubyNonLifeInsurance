@@ -1,0 +1,13 @@
+{
+    "Messages": {
+        "CustomerCreationFailure": "Sorry, we were unable to create the customer with the details provided at the moment, kindly try again later.",
+        "CustomerSearchFailure": "Customer Search failed, kindly try again later.",
+        "CustomerNotFound": "Could not retrieve Customer Information with the specified Id.",
+        "CustomerModificationDuplicate": "There is a pending modification request on going for the specified customer.",
+        "ModificationNotFound": "Modification request for the specified customer cannot be found.",
+        "InvalidModificationRequest": "There is no pending modification request for the specified customer.",
+        "ProcessDeclined": "Process was declined on Process Maker",
+        "ProcessPaused": "Process pending on Process Maker",
+        "ProcessFailed": "Process status could not be verified"
+    }
+}

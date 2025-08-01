@@ -1,0 +1,10 @@
+{
+  "Messages": {
+    "SuccessfulRejection": "Unfortunately,the pass journal reversal has been rejected.",
+    "SuccessfulSubmission": "The request for pass journal reversal was successfully placed! ",
+    "SuccessfulTransfer": "Transfer was successful.",
+    "SuccessfulTransferSearch": "Transfer search was successfull.",
+    "SuccessfulReversal": "This transaction was successfully reversed."
+  }
+}
+

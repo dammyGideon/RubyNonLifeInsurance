@@ -1,0 +1,8 @@
+{
+  "Messages": {
+    "NewlyCreatedChartOfAccount": "Chart Of Account has successfully been created",
+    "NewlyDeletedChartOfAccount": "Chart Of Account has successfully been deleted",
+    "NewlyUpdatedChartOfAccount": "Chart Of Account has successfully been updated",
+    "NewlySearchChartOfAccount": "Chart Of account search was Successful"
+  }
+}

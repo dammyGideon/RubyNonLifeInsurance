@@ -1,0 +1,8 @@
+{
+  "Messages": {
+    "NewlyCreatedAccount": "Account has successfully been created",
+    "NewlyDeletedAccount": "Account has successfully been deleted",
+    "NewlyUpdatedAccount": "Account has successfully been updated",
+    "NewlySearchChartOfAccount": "Account search was Successful"
+  }
+}

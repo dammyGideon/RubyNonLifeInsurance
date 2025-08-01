@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RubyNonlife.Api", "RubyNonlife.Api\RubyNonlife.Api.csproj", "{5921973C-A228-4317-8A6E-7C600C8C7C89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RubyNonLife.Domain", "RubyNonlife.Domain\RubyNonLife.Domain.csproj", "{544C85F3-2993-4FBA-9514-3A0402367249}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RubyNonlife.Application", "RubyNonlife.Application\RubyNonlife.Application.csproj", "{2A4368F2-C205-404B-ABE6-8DFF4D0F712A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RubyNonlife.Infrastructure", "RubyNonlife.Infrastructure\RubyNonlife.Infrastructure.csproj", "{EAB8CA53-7E2A-413D-A549-38A54459CFC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5921973C-A228-4317-8A6E-7C600C8C7C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5921973C-A228-4317-8A6E-7C600C8C7C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5921973C-A228-4317-8A6E-7C600C8C7C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5921973C-A228-4317-8A6E-7C600C8C7C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{544C85F3-2993-4FBA-9514-3A0402367249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{544C85F3-2993-4FBA-9514-3A0402367249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{544C85F3-2993-4FBA-9514-3A0402367249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{544C85F3-2993-4FBA-9514-3A0402367249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A4368F2-C205-404B-ABE6-8DFF4D0F712A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4368F2-C205-404B-ABE6-8DFF4D0F712A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4368F2-C205-404B-ABE6-8DFF4D0F712A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4368F2-C205-404B-ABE6-8DFF4D0F712A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAB8CA53-7E2A-413D-A549-38A54459CFC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAB8CA53-7E2A-413D-A549-38A54459CFC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAB8CA53-7E2A-413D-A549-38A54459CFC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAB8CA53-7E2A-413D-A549-38A54459CFC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43CC213C-ED28-48B5-A744-BC66A866AC3D}
+	EndGlobalSection
+EndGlobal

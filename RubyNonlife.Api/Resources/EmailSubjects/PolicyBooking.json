@@ -1,0 +1,11 @@
+{
+	"Subjects": {
+		"QuotationGeneration": "Policy Quotation",
+		"PolicyApproval": "Policy Approval",
+		"PolicyDecline": "Policy Decline",
+		"EndorsementQuotation": "Endorsement Payment Notification",
+		"EndorsementNotification": "Pending Endorsement Notification",
+		"ExtramortalityAddition": "Extra mortality addition Notification",
+		"BrokerImpairment": "Broker's Account Impaired"
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "Messages": {
+    "AccountSaveError": "Sorry, unable save your request,please try again.",
+    "AccountUpdateFailure": "Sorry, we were unable to process your update,please try again.",
+    "AccountDeleteFailure": "Sorry, we were unable to delete your chart account,please try again.",
+    "AccountSearchFailure": "Sorry, we couldn't find chart account with the specified Id",
+   
+  }
+}

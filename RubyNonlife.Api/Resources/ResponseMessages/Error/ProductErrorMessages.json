@@ -1,0 +1,14 @@
+{
+    "Messages": {
+        "ProductCreationFailure": "Sorry, we were unable to create the product with the details provided at the moment, kindly try again later.",
+        "ProductSearchFailure": "Product Search cannot be completed at the moment, kindly try again later.",
+        "ProductNotFound": "Sorry, we cannot retrieve Product Information with the specified Id.",
+        "ProductModificationDuplicate": "There is a pending modification request on going for the specified product.",
+        "ModificationNotFound": "Modification request for the specified products cannot be found.",
+        "InvalidModificationRequest": "There is no pending modification request for the specified product.",
+        "ProcessRejected": "Process was rejected on Process Maker.",
+        "ProcessPaused": "Process pending on Process Maker",
+        "ProcessFailed": "Process status could not be verified",
+        "ProductNotApprovedForCloning": "The Previous Product haven't been approved and therefore cannot be cloned."
+    }
+}

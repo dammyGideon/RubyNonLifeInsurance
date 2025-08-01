@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Edu Plan Plus - @Model.CustomerName</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style type="text/css">
+        /**
+                                                        * Google webfonts. Recommended to include the .woff version for cross-client compatibility.
+                                                        */
+        @@media screen {
+            @@font-face {
+                font-family: 'Source Sans Pro';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v10/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff) format('woff');
+            }
+
+            @@font-face {
+                font-family: 'Source Sans Pro';
+                font-style: normal;
+                font-weight: 700;
+                src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://fonts.gstatic.com/s/sourcesanspro/v10/toadOcfmlt9b38dHJxOBGFkQc6VGVFSmCnC_l7QZG60.woff) format('woff');
+            }
+        }
+
+        /**
+                                                        * Avoid browser level font resizing.
+                                                        * 1. Windows Mobile
+                                                        * 2. iOS / OSX
+                                                        */
+        body,
+        table,
+        td,
+        a {
+            -ms-text-size-adjust: 100%;
+            /* 1 */
+            -webkit-text-size-adjust: 100%;
+            /* 2 */
+        }
+
+        /**
+                                                        * Remove extra space added to tables and cells in Outlook.
+                                                        */
+        table,
+        td {
+            mso-table-rspace: 0pt;
+            mso-table-lspace: 0pt;
+        }
+
+        /**
+                                                        * Better fluid images in Internet Explorer.
+                                                        */
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        /**
+                                                        * Remove blue links for iOS devices.
+                                                        */
+        a[x-apple-data-detectors] {
+            font-family: inherit !important;
+            font-size: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+            color: inherit !important;
+            text-decoration: none !important;
+        }
+
+        /**
+                                                        * Fix centering issues in Android 4.4.
+                                                        */
+        div[style*="margin: 16px 0;"] {
+            margin: 0 !important;
+        }
+
+        body {
+            width: 100% !important;
+            height: 100% !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+
+        /**
+                                                        * Collapse table borders to avoid space between cells.
+                                                        */
+        table {
+            border-collapse: collapse !important;
+        }
+
+        a {
+            color: #1a82e2;
+        }
+
+        img {
+            height: auto;
+            line-height: 100%;
+            text-decoration: none;
+            border: 0;
+            outline: none;
+        }
+    </style>
+
+</head>
+
+<body style="">
+    <!-- start body -->
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+        <!-- start logo -->
+        <tr>
+            <td align="center" bgcolor="#fff">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td align="left" valign="bottom" style="padding: 15px 5px 15px 0; border-bottom: 2px solid #d1d1d1;" width="50%">
+                           
+                            <img src="https://www.axamansard.com/images/axa-logo.png" alt="Logo" border="0"
+                                 width="48" style="display: block; width: 45px; max-width: 145px; min-width: 48px; float: left;">
+                            <h3 style="float: left; padding-left: 6px; margin-bottom: 0; color: #00008f;">AXA MANSARD</h3>
+                           
+                        </td>
+                    
+                        <td align="right" style="padding-right: 24px; border-bottom: 2px solid #d1d1d1;" width="60%">
+                            <b>Date:{Date} </b>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!-- end logo -->
+        <!-- start hero -->
+        <tr>
+            <td align="center" bgcolor="#fff">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="">
+                    <tr>
+                        <td align="left" bgcolor="#ffffff"
+                            style="padding: 24px 0 5px 0; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 24px;">
+                            <p style="margin: 0; font-weight: 600;">
+                                From:
+                            </p>
+                        </td>
+
+                        <td align="left" bgcolor="#ffffff"
+                            style="padding: 24px 0 5px 0; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 24px;">
+                            <p style="margin: 0; font-weight: 600;">
+                                To:
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="left" bgcolor="#ffffff"
+                            style="padding: 0 24px 60px 0; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 24px;">
+                            <p style="margin: 0;">
+                                AXA Mansard Insurance Plc <br />
+                                Plot 1412 Ahmadu Bello Way <br />
+                                Victoria Island, Lagos State <br />
+                                Phone: 070 AXAMANSARD (292 626 7273) <br />
+                                Email: insure@axamansard.com <br />
+                                Website: <a href="https://www.axamansard.com">https://www.axamansard.com</a>
+                            </p>
+                        </td>
+
+                        <td align="left" bgcolor="#ffffff"
+                            style="padding: 0 24px 60px 0; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 24px;">
+                            <p style="margin: 0;">
+                                <strong>{Name}</strong> <br />
+                                Address: ____________________ <br />
+                                ____________________________ <br />
+                                Phone: ______________________ <br />
+                                Email: _______________________
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!-- end hero -->
+        <!-- start copy block -->
+        <tr>
+            <td align="center" bgcolor="#fff">
+                <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;" width="100%">
+
+                    <tr>
+                        <th align="center" bgcolor="#fff"
+                            style=" font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 24px; border-bottom: 2px solid #d1d1d1; padding: 6px 0;">
+                            Age
+                        </th>
+
+                        <th align="center" bgcolor="#fff"
+                            style=" font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 24px; border-bottom: 2px solid #d1d1d1; padding: 6px 0;">
+                            <strong>Year</strong>
+                        </th>
+
+                        <th align="center" bgcolor="#fff"
+                            style=" font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 24px; border-bottom: 2px solid #d1d1d1; padding: 6px 0;">
+                            <strong>Annual Contribution</strong>
+                        </th>
+
+                        <th align="center" bgcolor="#fff"
+                            style=" font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 24px; border-bottom: 2px solid #d1d1d1; padding: 6px 0;">
+                            <strong>Sum Assured</strong>
+                        </th>
+
+                        <th align="center" bgcolor="#fff"
+                            style=" font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 24px; border-bottom: 2px solid #d1d1d1; padding: 6px 0;">
+                            <strong>Investible Amount</strong>
+                        </th>
+
+                        <th align="center" bgcolor="#fff"
+                            style=" font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 24px; border-bottom: 2px solid #d1d1d1; padding: 6px 0;">
+                            <strong>Opening Balance</strong>
+                        </th>
+
+                        <th align="center" bgcolor="#fff"
+                            style=" font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 24px; border-bottom: 2px solid #d1d1d1; padding: 6px 0;">
+                            <strong>Interest</strong>
+                        </th>
+
+                        <th align="center" bgcolor="#fff"
+                            style=" font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 24px; border-bottom: 2px solid #d1d1d1; padding: 6px 0;">
+                            <strong>Account Value</strong>
+                        </th>
+
+                        <th align="center" bgcolor="#fff"
+                            style=" font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 24px; border-bottom: 2px solid #d1d1d1; padding: 6px 0;">
+                            <strong>Surrender Value (Year End)</strong>
+                        </th>
+                    </tr>
+					{Body}
+                 
+                    <tr>
+                        <td align="left" colspan="5"
+                            style="line-height: 24px; padding: 20px 0 20px 0; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 24px;">
+                            <strong>Date Due: {DueDate}</strong>
+                        </td>
+
+                        <td align="right" colspan="4"
+                            style="line-height: 24px; padding: 20px 0 20px 0; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 24px;">
+                            <strong>{Frequency} Payment: {Currency}{Premium}</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" colspan="9"
+                            style="line-height: 24px; padding: 20px 0 20px 0;font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 24px;">
+                            <strong>Customer Signature: _________________________</strong>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!-- end copy block -->
+        <!-- start footer -->
+        <tr>
+            <td align="left" bgcolor="#fff" style="padding: 24px 24px 0 24px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+                    <!-- start disclaimer -->
+                    <tr>
+                        <td align="center" bgcolor="#fff" valign="middle"
+                            style="padding: 12px 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; color: #666;">
+                            <h3 style="margin: 0;">
+                                <strong>DISCLAIMER:</strong>
+                            </h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" bgcolor="#fff"
+                            style="padding: 12px 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; color: #666;">
+                            <p style="margin: 0;">
+                                This is not a deposit product and there are no <strong>guaranteed</strong> investments or earnings attached. This product cannot be sold to you unless its benefits and risks have been thoroughly explained. Only purchase this product if it is fully understood.
+                            </p>
+                            <ul>
+                                <li>
+                                    All “{ProductName}” quotes from AXA Mansard Insurance Plc are valid for a maximum period of fourteen (14) days from the date this document was generated.
+                                </li>
+                                <li>
+                                    On inception of this policy, an investment charge will become deductible from the contributions made on the policy
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" bgcolor="#fff"
+                            style="padding: 10px 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; color: #666;">
+                            <p style="margin: 0;">
+                                <strong>Benefit list</strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <strong>Guaranteed Death Benefit</strong> as well as policy value is paid if death occurs within the policy term as long as premiums are paid as and when due
+                                </li>
+                                <li>
+                                    For the <strong>Loyalty Bonus</strong>, a 3-month bonus premium will be paid every 5 years at anniversary of policy as long as your policy remains in force. This bonus will be added to increase your account value and applies only to policy(ies) with policy term of ten (10) years and above''
+                                </li>
+                                <li><strong>Premium Waiver</strong> will commence in the event you are suddenly unable to work and pay for the premiums because of a permanent disability or upon demise</li>
+                                <li>The <strong>Family Income</strong> includes 5% of sum assured payable annually on policy anniversary from the date of demise</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" bgcolor="#fff"
+                            style="padding: 10px 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; color: #666;">
+                            <p style="margin: 0;">
+                                <strong>Making Payments</strong> <br/>
+                                Please note that only payments via the following channels will be acceptable:
+                            </p>
+                            <ul>
+                                <li>
+                                    AXA Mansard website – Login to your account on our website at <a href="www.axamansard.com/myaxa/">www.axamansard.com/myaxa/</a> to initiate payment.
+                                </li>
+                                <li>
+                                    MyAXA Plus App – Download on <a target="_blank" href="https://play.google.com/store/apps/details?id=app.axamansard.myaxa">Google Play Store</a> and <a href="https://apps.apple.com/us/app/myaxa-plus/id1553505844">Apple App Store.</a> 
+                                </li>
+                                <li>
+                                    Quick Teller at <a href="https://www.quickteller.com/axamansard">https://www.quickteller.com/axamansard</a>.
+                                </li>
+                                <li>
+                                    Remita at <a href="https://login.remita.net/remita/onepage/biller/payment.spa">https://login.remita.net/remita/onepage/biller/payment.spa</a>.
+                                </li>
+                                <li>
+                                    GT Collections on GTBank internet banking or mobile banking – Login to your GTBank account and navigate to AXA Mansard Insurance on GT Collections.
+                                </li>
+                                <li>
+                                    POS at any of our AXA Mansard Welcome Centres nationwide <a href="https://corporate.axamansard.com/contact/#locations">Contact - AXA Mansard</a> 
+                                </li>
+                                <li>
+                                    PayDirect at any bank branch. 
+                                </li>
+                                <li>
+                                    NIBSS E-Bills Payment at any bank branch or via the bank's website. 
+                                </li>
+                                <li>
+                                    WEMA Bank Virtual Account – Pay through any bank channel to AXA Mansard using your customer number as the beneficiary account number and WEMA Bank as the beneficiary bank. 
+                                </li>
+                            </ul>
+                            <p style="margin: 0;">
+                                <strong>
+                                    AXA Mansard shall only be responsible for services (subject to contract) for which payment is received via these channels and shall not be held liable for cash payments or payments made to third parties.
+                                </strong>
+                            </p>
+                        </td>
+                    </tr>
+                    <!-- end disclaimer -->
+                </table>
+            </td>
+        </tr>
+        <!-- end footer -->
+
+    </table>
+    <!-- end body -->
+
+</body>
+
+</html>

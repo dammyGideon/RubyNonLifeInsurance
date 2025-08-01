@@ -1,0 +1,12 @@
+{
+  "Messages": {
+    "PolicyNotFound": "Policy not found.",
+    "PolicyDocumentError": "Could not upload document",
+    "PolicyDocumentNotFound": "Policy document not found.",
+    "MultiplePrimaryBeneficiaries": "Multiple primary beneficiaries",
+    "MultipleBeneficiaries": "Multiple beneficiaries",
+    "BeneficiaryPercentageAbove100": "Alloted percentage to beneficiary is above 100%",
+    "BusinessTypeNull": "Business type value is null",
+    "PremiumDuePaymentCompleted": "Premium due payment is completed"
+  }
+}

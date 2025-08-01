@@ -1,0 +1,16 @@
+
+{
+  "Messages": {
+    "TransferReversedwithoutPendingFailure": "A request for reversal needs to be submitted before an approval can be made.",
+    "TransferCreationFailure": "There was an issue creating transfer",
+    "TransferLowBalance": "The amount to be sent is higher than the creditors balance",
+    "TransferSearchFailure": "Transfer search was not successfull",
+    "MismatchedCurrency": "Sorry,the currency that is to be transacted with does not match",
+    "WrongsenderAccountNumber": " The Sender's account number is either incorrect or does not exist , please check the number and retry again. ",
+    "WrongrecieverAccountNumber": "The Reciever's account number is either incorrect or does not exist , please check the number and retry again.",
+    "TransferAlreadyReversedOrApprovedFailure": "This pass journal has already been reversed or Approved.",
+    "TransferAlreadyReversedOrRejectedFailure": "This pass journal has already been reversed or Rejected.",
+    "TransferAlreadyReversedFailure": "This pass journal has already been reversed",
+    "TransferReversedFailure": "Pass Journal reversal failed."
+  }
+}
